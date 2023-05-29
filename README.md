@@ -1,19 +1,15 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 +  tRPC + Prisma starter
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+[Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction)
+[tRPC documentation](https://trpc.io/docs)
+[Prisma documentation](https://www.prisma.io/docs/guides)
+[trpc-nuxt documentation](https://github.com/wobsoriano/trpc-nuxt)
 
 ## Setup
 
 Make sure to install the dependencies:
 
 ```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
 pnpm install
 ```
 
@@ -22,21 +18,20 @@ pnpm install
 Start the development server on `http://localhost:3000`
 
 ```bash
-npm run dev
+pnpm dev
 ```
+
 
 ## Production
 
 Build the application for production:
 
 ```bash
-npm run build
+pnpm build
 ```
 
 Locally preview production build:
 
 ```bash
-npm run preview
+pnpm preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
