@@ -14,7 +14,7 @@ const title = statusCode === 404 ? 'Page not found' : 'Error'
 
 <template>
   <div>
-    <NuxtLayout name="basic">
+    <NuxtLayout name="default">
       <div class="min-h-full px-4 py-16 sm:px-6 sm:py-24 md:grid md:place-items-center lg:px-8">
         <div class="mx-auto my-36 max-w-max">
           <main class="sm:flex">

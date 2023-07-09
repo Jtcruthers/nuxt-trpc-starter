@@ -32,7 +32,7 @@ export const helloRouter = router({
       }),
     )
     .mutation(async ({ input, ctx }) => {
-      const newHello: Prisma.helloCreateInput = {
+      const newHello: Prisma.HelloCreateInput = {
         name: input.name,
         greeting: Greeting.HELLO,
       }
