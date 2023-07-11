@@ -5,6 +5,9 @@ export default defineNuxtConfig({
       computed: {}, // Required for nuxt-auth, not sure why
     },
   },
+  build: {
+    transpile: ['trpc-nuxt'],
+  },
   srcDir: 'src',
   modules: [
     '@nuxtjs/eslint-module',
